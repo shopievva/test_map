@@ -39,20 +39,6 @@
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
-    // var polygon;
-    // const MIN_POINTS = 3;
-    // var polygonCoord = [];
-
-    // function onMapClick(e) {
-    //     // alert("You clicked the map at " + e.latlng);
-    //     polygonCoord.push(e.latlng);
-    //     if (polygonCoord.length  >= MIN_POINTS){
-    //         polygon = L.polygon(polygonCoord)
-    //             .addTo(map);
-    //     }
-    // }
-    // map.on('click', onMapClick);
-
     <!--leaflet draw-->
     var drawnFeatures = new L.FeatureGroup();
     map.addLayer(drawnFeatures);
